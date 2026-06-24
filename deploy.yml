@@ -3,7 +3,7 @@ name: CI/CD Pipeline - MEDFLIQ
 on:
   push:
     branches:
-      - master   # change to main if your branch is main
+      - master
 
 jobs:
   build-and-deploy:
